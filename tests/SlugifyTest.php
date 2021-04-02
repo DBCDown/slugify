@@ -25,7 +25,4 @@ class SlugifyTest extends TestCase
 //        $this->assertEquals('text-slug', Slugify::make('TextSlug'));
 //    }
 //
-
-
-
 }
