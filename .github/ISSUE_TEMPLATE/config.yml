@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+    - name: Ask a question
+      url: https://github.com/designbycode/slugify/discussions/new?category=q-a
+      about: Ask the community for help
+    - name: Request a feature
+      url: https://github.com/designbycode/slugify/discussions/new?category=ideas
+      about: Share ideas for new features for Guardian
+    - name: Report a bug
+      url: https://github.com/designbycode/slugify/issues/new
+      about: Report a reproducable bug
