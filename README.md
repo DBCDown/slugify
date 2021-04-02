@@ -6,7 +6,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/designbycode/slugify.svg?style=flat-square)](https://packagist.org/packages/designbycode/slugify)
 
 [](delete) 1) manually replace `Claude Myburgh, designbycode, auhor@domain.com, DesignByCode, designbycode, Vendor Name, slugify, slugify, slugify, Slugify, This is my package Slugify` with their correct values
-[](delete) in `CHANGELOG.md LICENSE.md README.md composer.json Slugify.php ExampleTest.php FUNDING.yml config.yml SECURITY.md`
+[](delete) in `CHANGELOG.md LICENSE.md README.md composer.json Slugify.php SlugifyTest.php FUNDING.yml config.yml SECURITY.md`
 [](delete) and delete `configure-slugify.sh`
 
 [](delete) 2) You can also run `./configure-slugify.sh` to do this automatically.
