@@ -1,16 +1,16 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "designbycode/slugify",
+    "description": "This is my package Slugify",
     "keywords": [
-        ":vendor_name",
-        "package_slug"
+        "DesignByCode",
+        "slugify"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/designbycode/slugify",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Claude Myburgh",
+            "email": "claude@designbycode.co.za",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "DesignByCode\\Slugify\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "DesignByCode\\Slugify\\Tests\\": "tests"
         }
     },
     "scripts": {

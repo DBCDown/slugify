@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace DesignByCode\Slugify\Tests;
 
 use PHPUnit\Framework\TestCase;
 
