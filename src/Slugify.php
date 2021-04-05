@@ -4,7 +4,18 @@ namespace DesignByCode\Slugify;
 
 class Slugify
 {
-    const PATTERN = '/[^a-zA-Z0-9]+/';
+    public static string $pattern = '/[^a-zA-Z0-9]+/';
+
+    public string $string;
+
+    /**
+     * Slugify constructor.
+     * @param string $string
+     */
+    public function __construct(string $string)
+    {
+        $this->string = $string;
+    }
 
     /**
      * @param string $string
@@ -12,16 +23,16 @@ class Slugify
      */
     public static function make(string $string)
     {
-        return (new self())->convert($string);
+        return (new static($string))->convert();
     }
 
     /**
      * @param string $string
      * @return array|string|string[]|null
      */
-    private function convert(string $string)
+    private function convert()
     {
-        return preg_replace(self::PATTERN, '-', $this->prepare($string));
+        return preg_replace(self::$pattern, '-', $this->prepare($this->string));
     }
 
     /**
@@ -32,4 +43,7 @@ class Slugify
     {
         return strtolower(trim($string));
     }
+
+
+
 }
