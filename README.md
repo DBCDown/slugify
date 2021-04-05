@@ -3,8 +3,9 @@ The slugify package convert string in to slugs.
 
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/designbycode/slugify.svg?style=flat-square)](https://packagist.org/packages/designbycode/slugify)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/designbycode/slugify/run-tests?label=tests)](https://github.com/designbycode/slugify/actions?query=workflow%3ATests+branch%3Amaster)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/designbycode/slugify/Check%20&%20fix%20styling?label=code%20style)](https://github.com/designbycode/slugify/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
+[![PHP Composer](https://github.com/DesignByCode/slugify/actions/workflows/php.yml/badge.svg)](https://github.com/DesignByCode/slugify/actions/workflows/php.yml)
+[![Tests](https://github.com/DesignByCode/slugify/actions/workflows/run-tests.yml/badge.svg)](https://github.com/DesignByCode/slugify/actions/workflows/run-tests.yml)
+[![Check & fix styling](https://github.com/DesignByCode/slugify/actions/workflows/php-cs-fixer.yml/badge.svg)](https://github.com/DesignByCode/slugify/actions/workflows/php-cs-fixer.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/designbycode/slugify.svg?style=flat-square)](https://packagist.org/packages/designbycode/slugify)
 
 
