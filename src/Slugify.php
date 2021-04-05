@@ -43,7 +43,4 @@ class Slugify
     {
         return strtolower(trim($string));
     }
-
-
-
 }
